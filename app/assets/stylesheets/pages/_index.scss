@@ -1,0 +1,67 @@
+body {
+  background-color: #000000;
+
+  color: #e2e2e2;
+  font-family: Arial, sans-serif;
+  margin: 10;
+  padding: 10px;
+  display: flex;
+  /* flex-direction: row; */
+  columns: 1;
+  justify-content: left;
+  height: 100vh;
+  padding-top: 10px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  content: left;
+/*   background-color: rgba(68, 72, 72, 0.536); */
+  padding-left: 20px;
+  width: 100%;
+  height:fit-content
+}
+.name {
+  font-size: 30px;
+  font-weight:lighter;
+}
+.title {
+  font-size: 50px;
+  opacity: 0.75;
+  margin: 20px 0;
+  padding-top: 40px;
+}
+.skills {
+  font-size: 40px;
+  margin: 20px 0;
+  padding-top: 40px;
+}
+
+.location {
+  font-size: 50px;
+  line-height: 1.5;
+  opacity: 0.5;
+  padding-top: 40px;
+}
+
+.getintouch {
+  font-size: 20px;
+  margin: 20px 0;
+  color: #b5dfe1;
+  background-color: #000;
+
+  border-radius: 15%;
+  border-color: #74b2b5;
+  border-width: 100px;
+  size: 30px;
+  padding: 3px;
+  width: 70px;
+
+}
+
+#h3 {
+  border-color: #ffffff;
+  font-weight: 300;
+}
+
