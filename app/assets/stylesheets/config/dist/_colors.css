@@ -1,0 +1,19 @@
+/* Colors */
+:root {
+  color-scheme: #b5dfe1;
+}
+
+/* Primary */
+.primary {
+  color: #b5dfe1;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.teal {
+  color: #b5dfe1;
+}
+
+.teal2 {
+  color: #749193;
+}
