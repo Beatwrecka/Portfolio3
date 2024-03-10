@@ -1,0 +1,81 @@
+@import "config/colors";
+
+.loopylogo {
+  width: 200vw;
+  height:auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+
+}
+
+.loopycontainer {
+  display:flex;
+  /* content: inherit; */
+
+}
+
+.loopytext {
+  color: white;
+  background-color: rgb(56, 56, 56);
+  font-size: 20px;
+  /* margin: 20px; */
+  padding-top: 20px;
+  text-align: start;
+  width: 80vw;
+  height: fit-content;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Poppins', sans-serif;
+  background-color: $teal2;
+  border-radius: 25%;
+
+}
+
+.loopydescription {
+  /* background-color: royalblue; */
+  font-size: 20px;
+  margin: 20px;
+  width: 30vw
+
+
+
+
+}
+
+
+
+/* .loopycontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  content: right;
+  padding-left: 20px;
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(203, 203, 203);
+  padding: 10px;
+}
+ */
+
+
+ .image-gallery2 {
+
+
+  width: 50vw;
+  max-width: 50vw;
+  align-items: center;
+  padding: 1rem;
+  gap: 1%;
+ /*  background-color: aliceblue; */
+  margin: auto;
+
+
+}
+/* Targeting the image using its class */
+.image-gallery2 img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+
+}

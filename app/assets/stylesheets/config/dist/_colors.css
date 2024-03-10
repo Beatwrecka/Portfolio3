@@ -17,3 +17,55 @@
 .teal2 {
   color: #749193;
 }
+
+.blue-lightest{
+color: #bbdcff;
+}
+/* Main color pallette shades:
+
+$color-base: #749193;
+$color-darkest: #3a4849;
+$color-darker: #485a5b;
+$color-dark: #576c6e;
+$color-slightly-dark: #657e80;
+$color-slightly-light: #82a3a5;
+$color-light: #91b5b7;
+$color-lighter: #9fc7ca;
+$color-lightest: #aed9dc;
+*/
+
+.base {
+  color: #749193;
+}
+
+.darkest {
+  color: #3a4849;
+}
+
+.darker {
+  color: #485a5b;
+}
+
+.dark {
+  color: #576c6e;
+}
+
+.slightly-dark {
+  color: #657e80;
+}
+
+.slightly-light {
+  color: #82a3a5;
+}
+
+.light {
+  color: #91b5b7;
+}
+
+.lighter {
+  color: #9fc7ca;
+}
+
+.lightest {
+  color: #aed9dc;
+}

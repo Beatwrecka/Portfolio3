@@ -1,0 +1,11 @@
+                <div class="redbubble">
+                  <%= image_tag "redcarpet/WillyWonka.png", alt: "Description of the image" %>
+                </div>
+
+                <div class="redbubble">
+                  <%= image_tag "redcarpet/PinkVader-02.png", alt: "Description of the image" %>
+                </div>
+
+                <div class="redbubble">
+                  <%= image_tag "redcarpet/Dino.png", alt: "Description of the image" %>
+                </div>

@@ -1,0 +1,47 @@
+.redcontainer {
+  /* background-color: rgb(73, 73, 73); */
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 200px;
+
+
+
+}
+
+.redbubble {
+  width: calc(33.33% - 10px); /* Set the width for three items per row */
+  margin-bottom: 20px; /* Add some space between rows */
+  box-sizing: border-box; /* Add this to make sure the width includes padding and border */
+  padding: 20px;
+}
+
+.redtext {
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+  text-align: start;
+  width: 90%;
+  height: fit-content;
+  margin: auto;
+
+}
+
+.redbubble img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 10%;
+
+
+}
+
+.redcarpetbanner {
+  width: 100vw;
+  height: auto;
+  margin-top: 200px;
+}
+
+.h3 {
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+@import "config/colors";
+
+.audio_container {
+  display: contents;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 200px;
+  height: 100vh;
+  width: 80vw;
+  background-color: $teal2;
+}
+
+.audio_grid {
+  display: grid, 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid: flex-wrap;
+  padding: 10px;
+  margin: 0px;
+  margin-top: 200px;
+  height: 100vh;
+  width: 80vw;
+  background-color: $teal;
+}
+
+.row1 {
+  background-color: $teal3;
+  width: 30%;
+  height: 50%;
+
+}
+
+.row2 {
+  background-color: $teal4;
+  width: 30%;
+  height: 50%;
+
+}
+
+.column1 {
+  background-color: $teal2;
+  width: 50%;
+  height: 50%;
+  /* margin-left: 400px; */
+  display: flex;
+  flex-direction: column, 1fr;
+
+}
