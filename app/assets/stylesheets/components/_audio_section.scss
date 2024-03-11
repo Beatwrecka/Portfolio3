@@ -9,6 +9,48 @@
       width: 80vw;
     /*  background-color: $teal2; */
 
+.music_title {
+  font-size: 70px;
+  opacity: 0.75;
+  padding-top: 40px;
+  text-align: center;
+  margin-top: 400px;
+  margin-bottom: 200px;
+  background-color: $teal;
+  color: $teal4;
+  width: 60vw;
+}
+
+.music_quote1 {
+  font-size: 40px;
+  margin: 20px 0;
+  padding-top: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.music_text {
+  /* background-color: $teal2; */
+  font-size: 20px;
+  margin: 20px 0;
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 200px;
+  width: 80vw;
+
+}
+
+.AI_music {
+  font-size: 70px;
+  opacity: 0.75;
+  padding-top: 40px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  background-color: $teal;
+  color: $teal4;
+  width: 60vw;
+}
 
 .audio_grid {
   display: grid;
@@ -18,11 +60,11 @@
   "grid-item5 grid-item6";
 
 
-  grid-gap: 10px;
+  grid-gap: 50px;
  /* grid: flex-wrap; */
   padding: 10px;
   margin: 0px;
-  margin-top: 200px;
+  margin-top: 100px;
  /*  height: 100vh;
   width: 80vw; */
   /* background-color: $teal; */
@@ -32,24 +74,42 @@
 
 .audio_grid .grid-item1 {
 background-color: black;
-background-image: asset-url('loopyv1.png');
+
 }
 
 .grid-item1 img {
   width: 100%;
   height: auto;
   object-fit: cover;
-  
+
 }
 
 .grid-item2 p {
   color: white;
-  font-size: 30px;
-  margin-right: 200px;
-  text-align:end;
+  font-size: 20px;
+  margin-right: 100px;
+  text-align: start;
 
   height: fit-content;
   margin-left: 50px;
-  background-color: black;
+  /* background-color: $teal2; */
+  /* border-radius: 25%; */
+}
+
+.iframe {
+  width: 200%;
+
+}
+
+.grid-item3  {
+  color: white;
+  /* background-color: $teal2; */
+  font-size: 20px;
+  margin-right: 50px;
+  text-align: start;
+  margin-top: 100px;
+  height: fit-content;
+  margin-left: 50px;
+
   /* border-radius: 25%; */
 }

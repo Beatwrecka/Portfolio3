@@ -1,3 +1,6 @@
+@import "config/colors";
+
+
 body {
   background-color: #000000;
 
@@ -12,6 +15,12 @@ body {
   justify-content: left;
   height: 100vh;
   padding-top: 10px;
+}
+
+.allprojbody {
+  background-color: black;
+  margin: auto;
+  align-content: center;
 }
 .profile-container {
   display: flex;
@@ -64,4 +73,30 @@ body {
 #h3 {
   border-color: #ffffff;
   font-weight: 300;
+}
+
+.Title_Block {
+  font-size: 50px;
+  opacity: 0.75;
+  padding-top: 20px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-color: $teal;
+  color: $teal4;
+  width: 60vw;
+
+}
+
+.Title_Block2 {
+  font-size: 50px;
+  opacity: 0.75;
+  padding-top: 20px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 10px;
+  background-color: $teal;
+  color: $teal4;
+  width: 60vw;
+
 }
