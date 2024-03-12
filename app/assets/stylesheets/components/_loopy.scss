@@ -1,5 +1,9 @@
 @import "config/colors";
 
+.loopysection {
+  margin-top: 400px;
+}
+
 .loopylogo {
   width: 200vw;
   height:auto;
@@ -16,14 +20,15 @@
 
 .loopytext {
   color: white;
-  background-color: rgb(56, 56, 56);
+  /* background-color: rgb(56, 56, 56); */
   font-size: 20px;
   /* margin: 20px; */
-  padding-top: 20px;
+  padding: 20px;
+  
   text-align: start;
   width: 80vw;
   height: fit-content;
-  margin: 10px;
+  margin: 20px;
   display: flex;
   flex-direction: row;
   font-family: 'Poppins', sans-serif;
@@ -36,7 +41,10 @@
   /* background-color: royalblue; */
   font-size: 20px;
   margin: 20px;
-  width: 30vw
+  margin-top: 200px;
+  width: 25vw
+
+
 
 
 

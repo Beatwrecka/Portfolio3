@@ -77,10 +77,13 @@ background-color: black;
 
 }
 
-.grid-item1 img {
-  width: 100%;
+.grid-item1  {
+  width: 150%;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: aqua;
+  margin: auto;
+  padding: 100px;
 
 }
 
@@ -98,6 +101,7 @@ background-color: black;
 
 .iframe {
   width: 200%;
+  height: auto;
 
 }
 
@@ -112,4 +116,48 @@ background-color: black;
   margin-left: 50px;
 
   /* border-radius: 25%; */
+}
+
+.grid-item5 p {
+  color: white;
+  font-size: 20px;
+  margin-right: 100px;
+  text-align: start;
+
+  height: fit-content;
+  margin-left: 50px;
+  /* background-color: $teal2; */
+  /* border-radius: 25%; */
+}
+
+.Soundcloud_Container {
+  display:flex;
+  width: 90vw;
+  height: auto;
+  /* margin: auto; */
+  background-color: $teal2;
+  align-content: center;
+  
+
+}
+.Soundcloud_Profile {
+  width: 60vw;
+  height: auto;
+  object-fit: cover;
+  scale: 0.8;
+
+}
+
+
+.Check_Soundcloud {
+  font-size: 50px;
+
+  padding-top: 40px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  background-color: $teal2;
+  color: $teal4;
+  width: 90vw;
 }

@@ -1,6 +1,6 @@
 .redcontainer {
   /* background-color: rgb(73, 73, 73); */
-  width: 90vw;
+  width: 100vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -14,17 +14,28 @@
   width: calc(33.33% - 10px); /* Set the width for three items per row */
   margin-bottom: 20px; /* Add some space between rows */
   box-sizing: border-box; /* Add this to make sure the width includes padding and border */
-  padding: 20px;
+  padding: 10px;
+  /* background-color: #ff103f; */
+  border-radius: 10%;
 }
 
+.redbubble2 {
+  width: calc(33.33% - 10px); /* Set the width for three items per row */
+  margin-bottom: 20px; /* Add some space between rows */
+  box-sizing: border-box; /* Add this to make sure the width includes padding and border */
+  padding: 10px;
+  background-color: #ff103f;
+  border-radius: 10%;
+}
 .redtext {
   color: white;
   font-size: 20px;
-  margin: 20px;
+
   text-align: start;
   width: 90%;
   height: fit-content;
   margin: auto;
+  margin-top: 150px;
 
 }
 
@@ -36,10 +47,24 @@
 
 }
 
-.redcarpetbanner {
-  width: 100vw;
+.redcarpetbanner  {
+  width: 90vw;
   height: auto;
   margin-top: 200px;
+  margin-bottom: 100px;
+ /*  background-color: #ff103f; */
+  align-items: center;
+  display: flex;
+  padding-left: 450px;
+
+
+    .img {
+
+      height: auto;
+      margin-top: 200px;
+
+
+    }
 }
 
 .h3 {
