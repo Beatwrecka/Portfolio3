@@ -140,6 +140,8 @@
 
     </div>
 
+     <div class="Title_Block_Music">Music</div>
+
 
   <div class="loopysection">
     <div class="loopylogo">
@@ -149,11 +151,11 @@
     <div class="loopytext">
       <div class="loopybubble">
         <p class="loopydescription">
+          <%# <br>
           <br>
           <br>
           <br>
-          <br>
-          <br>
+          <br> %>
         Loopy is my first project in the Audio software development realm. <br>
         It's a web based app that will allow users of any experience level
         to create a 'mash-up' <br>of up to four different tracks,<br>
@@ -165,8 +167,8 @@
       <div class="loopycontainer">
         <div class="image-gallery2">
           <%= image_tag "loopyv1.png", alt: "Web based loop player" %>
-
         </div>
+      </div>
     </div>
   </div>
 
@@ -176,7 +178,7 @@
 
           </div>
 
-      <div class="Title_Block2">Music</div>
+
       <div class="music_quote1">"Creativity is a need not a want for me."</div>
       <div class="music_text">
         <p>I realised my love of music in the early 90's when my two older brothers gave me some rave tape-packs and a load of Cypress Hill and Snoop Dogg casettes.
@@ -195,11 +197,11 @@
         <br> It's incredible just how creative you can get with just a laptop, some software and a few bits of studio gear now...
       </div>
 
-    <div class="Title_Block2">Let it snow remix</div>
+    <div class="Title_Block2">My Music</div>
 
     <div class="audio_grid">
         <div class="grid-item1"><iframe width="560" height="315" src="https://www.youtube.com/embed/p01KEcb-6j8?si=xvCTRon48tvAdN8P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+    </div>
         <div class="grid-item2"><p>I came up with the idea to remix "let it snow" into a Hip Hop track, and once I'd sampled the original and dropped a beat over it, I thought "This would sound awesome with Biggie Smalls on it." <br>
           So i wrote a rap that fitted with the Christmas vibe, recorded it, and then set about training A.I. models on Biggie and Eminem's voices. <br>
           Once I had the models trained, I switched my voice for theirs, adding backing vocals and this is the result! <br>
@@ -218,16 +220,23 @@
       </div>
 
   <div class="Check_Soundcloud">
-    <div class="Soundcloud_text">Wanna hear more? Check out my Soundcloud page!</div>
+    <div class="Soundcloud_text">Wanna hear more? Check out my Soundcloud page:</div>
   </div>
+
   <div class="Soundcloud_Container">
-    <div class="Soundcloud_Profile"><%= image_tag "Soundcloud_Profile.png", alt: "Soundcloud profile page" %></div>
+
+     <div><%= link_to "Beatwrecka's SoundCloud", "https://www.soundcloud.com/beatwrecka", class: "Soundcloud_Button" %></div>
+
+
+    <div class="Soundcloud_Profile">
+      <div class="Soundcloud_Pic"><%= image_tag "Soundcloud_Profile.png", alt: "Soundcloud profile page" %></div>
   </div>
 
 
 </body>
 
-<div class="Title_Block2">Get In Touch!</div>
+<%# <div class="Title_Block2">Get In Touch!</div>
   <div class="Contact_text">
     <p>Wanna chat? Hit me up on one of these platforms and let's talk. </p>
-  </div>
+  </div> %>
+</div>

@@ -64,9 +64,41 @@
   background: $teal;
 }
 
+.Soundcloud_Button {
+  position: relative;
+  top: 80px;
+  left: 10vw;
+  width: 360px;
+  height: 120px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+/*   box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5),
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4); */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5%;
+  letter-spacing: 1px;
+  color: $teal4;
+  z-index: 1;
+  transition: .6s;
+  background-color: $teal;
+}
 
-
-
+.Soundcloud_Button :hover {
+  letter-spacing: 4px;
+  font-size: large;
+  color: #fff;
+  background: $teal;
+}
 
 
 .card {

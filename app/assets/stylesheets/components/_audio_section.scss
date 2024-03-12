@@ -26,7 +26,7 @@
   margin: 20px 0;
   padding-top: 40px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 200px;
 }
 
 .music_text {
@@ -60,7 +60,8 @@
   "grid-item5 grid-item6";
 
 
-  grid-gap: 50px;
+  grid-gap: 10px;
+  row-gap: 200px;
  /* grid: flex-wrap; */
   padding: 10px;
   margin: 0px;
@@ -78,23 +79,23 @@ background-color: black;
 }
 
 .grid-item1  {
-  width: 150%;
+  width: 100%;
   height: auto;
   object-fit: contain;
   background-color: aqua;
-  margin: auto;
-  padding: 100px;
+  /* margin: auto; */
+
 
 }
 
 .grid-item2 p {
   color: white;
   font-size: 20px;
-  margin-right: 100px;
+  margin-right: 20px;
   text-align: start;
 
   height: fit-content;
-  margin-left: 50px;
+
   /* background-color: $teal2; */
   /* border-radius: 25%; */
 }
@@ -132,25 +133,47 @@ background-color: black;
 
 .Soundcloud_Container {
   display:flex;
+  flex-wrap: wrap;
   width: 90vw;
   height: auto;
   /* margin: auto; */
   background-color: $teal2;
   align-content: center;
-  
+
 
 }
 .Soundcloud_Profile {
-  width: 60vw;
+  width: 100%;
   height: auto;
+  /* object-fit: cover; */
+  /* scale: 0.6; */
+  margin-top: 200px;
+  margin-left: 0px;
+  background-color: aqua;
+  padding: 10px;
   object-fit: cover;
-  scale: 0.8;
+  align-content: center;
 
 }
 
+.Soundcloud_Pic {
+
+
+
+  margin-top: 20px;
+  margin-left: 0px;
+  background-color: aqua;
+  padding: 10px;
+  .img {
+    width: 60%;
+    height: auto;
+    margin-right: 100px;
+
+  }
+}
 
 .Check_Soundcloud {
-  font-size: 50px;
+  font-size: 30px;
 
   padding-top: 40px;
   text-align: center;
@@ -158,6 +181,6 @@ background-color: black;
   margin-bottom: 20px;
 
   background-color: $teal2;
-  color: $teal4;
+  color: black;
   width: 90vw;
 }
