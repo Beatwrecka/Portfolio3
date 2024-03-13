@@ -8,30 +8,68 @@
 .socialsandbutton {
   display: table-column;
   columns:2;
-
-
-
   width: 60vw;
   height: 17vh;
+  z-index: 10;
+
+  @media (max-width: 768px){
+    scale: 0.6;
+    /* padding: 1rem; */
+    width: 30vw;
+    content: left;
+    columns: 1;
+  }
+
+  @media (max-width: 499px){
+    scale: 0.5;
+    padding: 1rem;
+    width: 10vw;
+    content: left;
+    columns: 1;
+    align-content: start;
+  }
 }
 .socialswrapper {
-  margin-top: 40px;
-  margin-left: 20px;
+  margin-top: 20px;
 
+  @media (max-width: 768px){
+    margin-top: 0px;
+
+  }
 }
 
+.Enter_div {
+  @media (max-width: 768px){
 
+    margin-top: auto;
+    scale: 0.7;
+  }
+
+  @media (max-width: 499px){
+    scale: 0.5;
+    padding: 1rem;
+    width: 10vw;
+    content: left;
+    columns: 1;
+    align-content: start;
+  }
+}
 
 .enterbutton {
-  position: relative;
-  top: 40px;
+  /* position:; */
+  /* top: 20px; */
   left: 0;
   width: 360px;
   height: 60px;
   margin: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+
+  @media (max-width: 768px){
+    top: 20px;
+    /* margin: 1px; */
+  }
 }
 
 
@@ -42,7 +80,7 @@
   font-size: x-large;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   background: none;
   box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
               -4px -4px 6px 0 rgba(116, 125, 136, .5),
@@ -55,6 +93,7 @@
   color: $teal;
   z-index: 1;
   transition: .6s;
+  background-color: #dc2743;
 }
 
 .enterbutton :hover {
@@ -149,6 +188,7 @@
 .card .social-link2:hover {
   background-color: #00ccff;
   animation: bounce_613 0.4s linear;
+
 }
 
 .card .social-link3:hover {
@@ -162,6 +202,8 @@
 }
 
 @keyframes bounce_613 {
+
+
   40% {
     transform: scale(1.4);
   }
@@ -177,4 +219,5 @@
   100% {
     transform: scale(1);
   }
+
 }
