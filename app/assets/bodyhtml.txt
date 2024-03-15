@@ -1,7 +1,21 @@
 
-  
 
 
+    <section>
+      <div class="Title_Block">Co-Write</div>
+
+        <div class="Co-write-gallery">
+          <%# <%= image_tag "co-write1b.png", alt: "Description of the image" %>
+          <%= image_tag "co-writeIpads.png", alt: "Description of the image" %>
+
+          <p class="Co-Write_Description">Co-Write is a collaborative writing platform that allows users to create, edit, and share documents in real-time. <br>
+          The platform is designed to be user-friendly and intuitive, with a clean and modern interface that encourages creativity and collaboration. <br>
+          <br>This was our final project for the Le Wagon coding bootcamp, and we built it using Ruby on Rails, JavaScript, and PostgreSQL. <br>
+        </div>
+
+
+
+    </section>
 
      <div class="Title_Block_Red">Red Carpet Rentals</div>
 
@@ -139,3 +153,23 @@
   </div>
 
   <div class="Soundcloud_Container">
+
+
+
+
+
+
+ <div class="Title_Block">Co-Write</div>
+     <div class="Co-write_Container">
+        <div class="Co-write-gallery">
+          <%= image_tag "co-write1b.png", alt: "Description of the image" %>
+          <%= image_tag "co-write2b.png", alt: "Description of the image" %>
+        </div>
+          <p class="allprojdescription">Co-Write is a collaborative writing platform that allows users to create, edit, and share documents in real-time. <br>
+          The platform is designed to be user-friendly and intuitive, with a clean and modern interface that encourages creativity and collaboration. <br>
+          <br>This was our final project for the Le Wagon coding bootcamp, and we built it using Ruby on Rails, JavaScript, and PostgreSQL. <br>
+          <div class="Co-write-gallery">
+            <%= image_tag "co-write4b.png", alt: "Description of the image" %>
+            <%= image_tag "co-write5b.png", alt: "Description of the image" %>
+          </div>
+      </div>

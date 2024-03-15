@@ -34,55 +34,124 @@
  <%#  <h1 class="allprojectsh1">Current Projects:</h1> %>
 
   <div class="allprojcontainer">
-    <div class="allprojcard">
+
+  <%#   <section>
+      <h1>Projects</h1>
+      <p>Below are some of the projects I've worked on. A couple are from my intensive coding bootcamp, and some more bits that I'm currently working on myself. <br>
+    </section> %>
+    <section>
       <div class="textbubble">
-
         <div class="Title_Block">The Regal</div>
-
-        <p class="allprojdescription">
-          The Regal is a fully functioning restaurant website mock-up.
-          I wanted to try a different style of website to that of which I'm often drawn to,
-           one with a different clientele and feel.</p>
+          <p class="allprojdescription">
+            The Regal is a fully functioning restaurant website mock-up.
+            I wanted to try a different style of website to that of which I'm often drawn to,
+            one with a different clientele and feel.</p>
       </div>
 
-      <div class="gallerycontainer">
+
         <div class="image-gallery">
           <%= image_tag "Regal1b.png", alt: "Description of the image" %>
           <%= image_tag "Regal2b.png", alt: "Description of the image" %>
         </div>
-
         <p class="allprojdescription">The imagery seamlessly integrates with the carefully chosen branding and typeface, <br>
         creating a cohesive visual identity that speaks to the restaurant's luxury and refinement. <br>
         Every element of the website, from the navigation to the reservation system, <br>
         is crafted with the user experience in mind, ensuring seamless interaction for discerning patrons seeking the best in fine dining.</p>
 
-
-          <div class="gallerycontainer">
             <div class="image-gallery">
               <%= image_tag "Regal3b.png", alt: "Description of the image" %>
               <%= image_tag "Regal4b.png", alt: "Description of the image" %>
             </div>
+
+    </section>
+
+
+
+    <section>
+            <div class="Title_Block_Red">Red Carpet Rentals</div>
+        <div class="Banner_Container">
+            <div class="redcarpetbanner">
+              <%= image_tag "banner_image.png", alt: "Description of the image" %>
+            </div>
+        </div>
+      <div class="redcontainer">
+        <div class="redbubble2">
+          <p class="redtext"> Our penultimate project at Le Wagon was to build a two-sided marketplace, and we chose to create a platform for renting costumes...with a twist! <br>
+            This was our very 'tongue in cheek' approach to the project, and we had a lot of fun with it. <br>
+            Using A.I. to generate the images, we created a store with 'celebrity' models for each costume. <br>
+            I've learned a lot about A.I. prompting and using Mid-Journey to get the results we wanted, and it's without doubt an amazing tool that can be used in a designers/developers arsenal for image generation. <br>
+        </div>
+            <div class="redbubble">
+              <%= image_tag "redcarpet/Obama.png", alt: "Description of the image" %>
+            </div>
+
+            <div class="redbubble">
+              <%= image_tag "redcarpet/Beckham.png", alt: "Description of the image" %>
+            </div>
+
+            <div class="redbubble">
+              <%= image_tag "redcarpet/WillyWonka.png", alt: "Description of the image" %>
+            </div>
+
+            <div class="redbubble">
+              <%= image_tag "redcarpet/PinkVader-02.png", alt: "Description of the image" %>
+            </div>
+
+            <div class="redbubble">
+              <%= image_tag "redcarpet/Dino.png", alt: "Description of the image" %>
+            </div>
+
+            <div class="redbubble">
+              <%= image_tag "redcarpet/BorisClown.png", alt: "Description of the image" %>
+            </div>
+
+            <div class="redbubble">
+              <%= image_tag "redcarpet/BradPotter.png", alt: "Description of the image" %>
+            </div>
+
+            <div class="redbubble">
+              <%= image_tag "redcarpet/ElonRambo.png", alt: "Description of the image" %>
+            </div>
+
+
+    </section>
+
+    <section>
+      <div class="Title_Block_Music">Music</div>
+
+
+      <div class="loopysection">
+<%#         <div class="loopylogo">
+         <%= image_tag "loopy.png", alt: "loopy logo text" %>
+       <%#  </div> %> 
+
+        <div class="loopytext">
+          <div class="loopybubble">
+            <p class="loopydescription">
+              <%# <br>
+              <br>
+              <br>
+              <br>
+              <br> %>
+            Loopy is my first project in the Audio software development realm. <br>
+            It's a web based app that will allow users of any experience level
+            to create a 'mash-up' <br>of up to four different tracks,<br>
+            so you can finally try that blend of Michael Jackson's vocals,
+            Snoop Dogg's Bassline, <br> Axel Rose's Guitar riffs and Charlie Watts' (Rest in peace ) Drums!<br>
+            <br>The interface is designed to be user-friendly <br> and intuitive,
+            and all of the loops will be sync'd to the same tempo, and key, which you are free to choose.<br></P>
           </div>
+          <div class="loopycontainer">
+            <div class="image-gallery2">
+              <%= image_tag "loopyv1.png", alt: "Web based loop player" %>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <div class="Title_Block3">Co-Write</div>
-
-     <div class="gallerycontainer">
-        <div class="image-gallery">
-          <%= image_tag "co-write1b.png", alt: "Description of the image" %>
-          <%= image_tag "co-write2b.png", alt: "Description of the image" %>
-        </div>
-      <p class="allprojdescription">Co-Write is a collaborative writing platform that allows users to create, edit, and share documents in real-time. <br>
-      The platform is designed to be user-friendly and intuitive, with a clean and modern interface that encourages creativity and collaboration. <br>
-      <br>This was our final project for the Le Wagon coding bootcamp, and we built it using Ruby on Rails, JavaScript, and PostgreSQL. <br>
-      <div class="gallerycontainer">
-        <div class="image-gallery">
-          <%= image_tag "co-write4b.png", alt: "Description of the image" %>
-          <%= image_tag "co-write5b.png", alt: "Description of the image" %>
-        </div>
 
 
+
+    </section>
 
 
   </div>
@@ -91,15 +160,6 @@
     <%#  <div><%= link_to "Beatwrecka's SoundCloud", "https://www.soundcloud.com/beatwrecka", class: "Soundcloud_Button" %><%# </div> %>
 
 
- <%#      <div class="Soundcloud_Profile">
-        <div class="Soundcloud_Pic"><%= image_tag "Soundcloud_Profile.png", alt: "Soundcloud profile page" %><%# </div> %>
-    <%# </div>
-  %>
+
 
 </body>
-
-<%# <div class="Title_Block2">Get In Touch!</div>
-  <div class="Contact_text">
-    <p>Wanna chat? Hit me up on one of these platforms and let's talk. </p>
-  </div> %>
-</div>

@@ -2,27 +2,16 @@
 @import "config/colors";
 @import "config/fonts";
 
-.allprojbody {
-  /* background-color: rgb(36, 36, 36); */
-
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
-  margin-left: 120px;
-}
 
 .textbubble {
   /* background-color: $teal; */
   color: white;
-  padding: 20px;
+  padding: 10px;
 
-  margin: 20px;
+  /* margin: 20px; */
   font-size: x-large;
   text-align: start;
-  width: 90%;
+
   height: fit-content;
   /* box-shadow: 0 5px 10px 0 rgb(255, 89, 89); */
 
@@ -52,19 +41,21 @@
  .allprojcontainer {
  /*  margin-top: 10px; */
   align-content: center;
+  max-width: 100%;
  }
 
 
 
 .allprojcard {
-  top: 10px;
+
   max-width: 98%;
 }
 
 .allprojdescription {
-  font-size: x-large;
+  font-size: 20px;
   margin: auto;
-  margin-top: 20px;
+ /*  margin-top: 20px; */
+  max-width: 100%;
 }
 
 .h1 {

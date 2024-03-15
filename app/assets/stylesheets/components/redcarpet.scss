@@ -1,6 +1,9 @@
+@import "config/colors";
+
+
 .redcontainer {
   /* background-color: rgb(73, 73, 73); */
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -14,18 +17,26 @@
   width: calc(33.33% - 10px); /* Set the width for three items per row */
   margin-bottom: 20px; /* Add some space between rows */
   box-sizing: border-box; /* Add this to make sure the width includes padding and border */
-  padding: 10px;
-  /* background-color: #ff103f; */
+  padding: 2px;
+  background-color: #ff103f;
   border-radius: 10%;
+
+  @media (max-width: 768px){
+    width: calc(50% - 10px); /* Set the width for two items per row */
+  }
 }
 
 .redbubble2 {
   width: calc(33.33% - 10px); /* Set the width for three items per row */
   margin-bottom: 20px; /* Add some space between rows */
   box-sizing: border-box; /* Add this to make sure the width includes padding and border */
-  padding: 10px;
+  padding: 6px;
   background-color: #ff103f;
   border-radius: 10%;
+
+  @media (max-width: 768px){
+    width: calc(100% - 10px); /* Set the width for one item per row */
+  }
 }
 .redtext {
   color: white;
@@ -35,7 +46,7 @@
   width: 90%;
   height: fit-content;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 0px;
 
 }
 
@@ -49,25 +60,47 @@
 
 }
 
-.redcarpetbanner  {
-  width: 90vw;
-  height: auto;
-  margin-top: 200px;
-  margin-bottom: 100px;
- /*  background-color: #ff103f; */
-  align-items: center;
+.Banner_Container {
+  width: calc(100% - 10px);
+  justify-content: center;
+  object-fit: contain;
+  background-color: white;
+  padding: 2px;
   display: flex;
- /*  padding-left: 450px; */
+  align-content: flex-start;
 
 
-    .img {
-
-      height: auto;
-      margin-top: 200px;
-
-
-    }
 }
+.redcarpetbanner  {
+  width: calc(100% - 10px);
+  height: 600px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #ff103f;
+  align-self: flex-start;
+  overflow: hidden;
+
+  @media (max-width: 768px){
+    /* max-width: 40vw; */
+    height: auto;
+    /* scale: 0.8; */
+    justify-self: auto;
+  }
+
+
+
+
+}
+
+.redcarpetbanner > img {
+  width: 100%;
+  /* height: 70%; */
+  aspect-ratio: 1 / 1;
+  object-fit:contain;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 
 .h3 {
   text-align: center;
