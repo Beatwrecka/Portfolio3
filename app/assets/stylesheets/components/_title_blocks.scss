@@ -30,6 +30,13 @@
   text-shadow: #ffffff 1px 1px 0.4px;
   color: black;
   width: 60vw;
+
+  @media (max-width: 768px){
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+  }
 }
 
 .Title_Block_Music {
