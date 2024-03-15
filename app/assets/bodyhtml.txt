@@ -1,0 +1,175 @@
+
+
+
+    <section>
+      <div class="Title_Block">Co-Write</div>
+
+        <div class="Co-write-gallery">
+          <%# <%= image_tag "co-write1b.png", alt: "Description of the image" %>
+          <%= image_tag "co-writeIpads.png", alt: "Description of the image" %>
+
+          <p class="Co-Write_Description">Co-Write is a collaborative writing platform that allows users to create, edit, and share documents in real-time. <br>
+          The platform is designed to be user-friendly and intuitive, with a clean and modern interface that encourages creativity and collaboration. <br>
+          <br>This was our final project for the Le Wagon coding bootcamp, and we built it using Ruby on Rails, JavaScript, and PostgreSQL. <br>
+        </div>
+
+
+
+    </section>
+
+     <div class="Title_Block_Red">Red Carpet Rentals</div>
+
+      <div class="redcarpetbanner">
+        <%= image_tag "banner_image.png", alt: "Description of the image" %>
+      </div>
+      <div class="redcontainer">
+        <div class="redbubble2">
+          <p class="redtext"> Our penultimate project at Le Wagon was to build a two-sided marketplace, and we chose to create a platform for renting costumes...with a twist! <br>
+            This was our very 'tongue in cheek' approach to the project, and we had a lot of fun with it. <br>
+            Using A.I. to generate the images, we created a store with 'celebrity' models for each costume. <br>
+            I've learned a lot about A.I. prompting and using Mid-Journey to get the results we wanted, and it's without doubt an amazing tool that can be used in a designers/developers arsenal for image generation. <br>
+          </div>
+            <div class="redbubble">
+              <%= image_tag "redcarpet/Obama.png", alt: "Description of the image" %>
+            </div>
+
+            <div class="redbubble">
+              <%= image_tag "redcarpet/Beckham.png", alt: "Description of the image" %>
+            </div>
+
+            <div class="redbubble">
+              <%= image_tag "redcarpet/WillyWonka.png", alt: "Description of the image" %>
+            </div>
+
+            <div class="redbubble">
+              <%= image_tag "redcarpet/PinkVader-02.png", alt: "Description of the image" %>
+            </div>
+
+            <div class="redbubble">
+              <%= image_tag "redcarpet/Dino.png", alt: "Description of the image" %>
+            </div>
+
+            <div class="redbubble">
+              <%= image_tag "redcarpet/BorisClown.png", alt: "Description of the image" %>
+            </div>
+
+            <div class="redbubble">
+              <%= image_tag "redcarpet/BradPotter.png", alt: "Description of the image" %>
+            </div>
+
+            <div class="redbubble">
+              <%= image_tag "redcarpet/ElonRambo.png", alt: "Description of the image" %>
+            </div>
+
+
+
+
+
+
+
+    </div>
+
+     <div class="Title_Block_Music">Music</div>
+
+
+  <div class="loopysection">
+    <div class="loopylogo">
+      <%= image_tag "loopy.png", alt: "loopy logo text" %>
+    </div>
+
+    <div class="loopytext">
+      <div class="loopybubble">
+        <p class="loopydescription">
+          <%# <br>
+          <br>
+          <br>
+          <br>
+          <br> %>
+        Loopy is my first project in the Audio software development realm. <br>
+        It's a web based app that will allow users of any experience level
+        to create a 'mash-up' <br>of up to four different tracks,<br>
+        so you can finally try that blend of Michael Jackson's vocals,
+        Snoop Dogg's Bassline, <br> Axel Rose's Guitar riffs and Charlie Watts' (Rest in peace ) Drums!<br>
+        <br>The interface is designed to be user-friendly <br> and intuitive,
+        and all of the loops will be sync'd to the same tempo, and key, which you are free to choose.<br></P>
+      </div>
+      <div class="loopycontainer">
+        <div class="image-gallery2">
+          <%= image_tag "loopyv1.png", alt: "Web based loop player" %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <div class="audio_container">
+
+
+
+          </div>
+
+
+      <div class="music_quote1">"Creativity is a need not a want for me."</div>
+      <div class="music_text">
+        <p>I realised my love of music in the early 90's when my two older brothers gave me some rave tape-packs and a load of Cypress Hill and Snoop Dogg casettes.
+           I was hooked on Boom Bap and Jungle from that moment on, unable to go to shows as i was 11 or 12, I listened to these albums on repeat and a few years later i got my first pair of turntables. <br>
+           After two or three years  of mixing obsessively every day i was playing gigs in clubs locally and then in London, with a weekly show on a pirate radio station. <br>
+           In 2004 I started producing my own music, and that was when everything changed.. <br>
+      </div>
+
+      <div class="Title_Block2">A.I. and Music</div>
+      <div class="music_text">
+        Recent advances have reveloutionised the way we can produce mucic, from stem seperation that enables you to break down a piece of music into it's vocals, drums, music and other sounds; to Machine learning that
+        enables us to use Python scripts to train voice models that replicate the nuances of famous Rappers and Singers' voices. <br>
+        <br>
+        Every day I have to do something creative, and with these technologies I can go far beyond what most people are using them for, simply swapping out one singers' voce for another on a famous track.
+        <br> <br>I can write the lyrics for a sombre sounding song, record them and change them into a female vocal for the chorus, then write the rap verses and do the same thing before recording some chords in and dropping a beat over it.
+        <br> It's incredible just how creative you can get with just a laptop, some software and a few bits of studio gear now...
+      </div>
+
+    <div class="Title_Block2">My Music</div>
+
+    <div class="audio_grid">
+        <div class="grid-item1"><iframe width="560" height="315" src="https://www.youtube.com/embed/p01KEcb-6j8?si=xvCTRon48tvAdN8P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+        <div class="grid-item2"><p>I came up with the idea to remix "let it snow" into a Hip Hop track, and once I'd sampled the original and dropped a beat over it, I thought "This would sound awesome with Biggie Smalls on it." <br>
+          So i wrote a rap that fitted with the Christmas vibe, recorded it, and then set about training A.I. models on Biggie and Eminem's voices. <br>
+          Once I had the models trained, I switched my voice for theirs, adding backing vocals and this is the result! <br>
+        </div>
+        <div class="grid-item3"><p>This is a remix competition that I entered last year.
+          <br> A Drum n Bass banger that shows off my darker side
+          <br> of sound design and music production.</div>
+        <div class="grid-item4"><iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1439609803&color=%23749193&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/beatwrecka" title="Beatwrecka" target="_blank" style="color: #cccccc; text-decoration: none;">Beatwrecka</a> · <a href="https://soundcloud.com/beatwrecka/loudmouth" title="Erb n&#x27; Dub- Loudmouth (Beatwrecka Remix)" target="_blank" style="color: #cccccc; text-decoration: none;">Erb n&#x27; Dub- Loudmouth (Beatwrecka Remix)</a></div></div>
+        <div class="grid-item5"><p>This one's a Bass House track which I sampled Peewee Herman warning kids about the danger of drugs.<br>
+         It's a very similar style to DJ Zinc's 'Crack House Genre hense combining samples to get the vocal to say<br>
+          "Crack house, it isn't glamorous or cool" </div>
+        <div class="grid-item6"><iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1028055976&color=%2384a49c&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/beatwrecka" title="Beatwrecka" target="_blank" style="color: #cccccc; text-decoration: none;">Beatwrecka</a> · <a href="https://soundcloud.com/beatwrecka/crackhouseiscool" title="Crack House is cool" target="_blank" style="color: #cccccc; text-decoration: none;">Crack House is cool</a></div></div>
+        <div class="grid-item7"></div>
+        <div class="grid-item8"></div>
+
+      </div>
+
+  <div class="Check_Soundcloud">
+    <div class="Soundcloud_text">Wanna hear more? Check out my Soundcloud page:</div>
+  </div>
+
+  <div class="Soundcloud_Container">
+
+
+
+
+
+
+ <div class="Title_Block">Co-Write</div>
+     <div class="Co-write_Container">
+        <div class="Co-write-gallery">
+          <%= image_tag "co-write1b.png", alt: "Description of the image" %>
+          <%= image_tag "co-write2b.png", alt: "Description of the image" %>
+        </div>
+          <p class="allprojdescription">Co-Write is a collaborative writing platform that allows users to create, edit, and share documents in real-time. <br>
+          The platform is designed to be user-friendly and intuitive, with a clean and modern interface that encourages creativity and collaboration. <br>
+          <br>This was our final project for the Le Wagon coding bootcamp, and we built it using Ruby on Rails, JavaScript, and PostgreSQL. <br>
+          <div class="Co-write-gallery">
+            <%= image_tag "co-write4b.png", alt: "Description of the image" %>
+            <%= image_tag "co-write5b.png", alt: "Description of the image" %>
+          </div>
+      </div>

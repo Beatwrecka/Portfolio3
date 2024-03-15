@@ -1,0 +1,102 @@
+@import "config/colors";
+
+.Title_Block {
+  font-size: 50px;
+  border-color: #ffffff;
+  border-style: groove;
+  border-radius: 5%;
+  box-shadow: 4px 4px 6px  rgb(159, 159, 159);
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-color: $teal2;
+  color: black;
+  width: 60vw;
+  text-shadow: #ffffff 1px 1px 0.4px;
+}
+
+.Title_Block2 {
+  font-size: 50px;
+  border-color: #ffffff;
+  border-style: groove;
+  border-radius: 5%;
+  box-shadow: 4px 4px 6px  rgb(159, 159, 159);
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 10px;
+  background-color: $teal2;
+  text-shadow: #ffffff 1px 1px 0.4px;
+  color: black;
+  width: 60vw;
+
+  @media (max-width: 768px){
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+  }
+}
+
+.Title_Block_Music {
+  font-size: 50px;
+  border-color: #ffffff;
+  border-style: groove;
+  border-radius: 5%;
+  box-shadow: 4px 4px 6px  rgb(159, 159, 159);
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 400px;
+  margin-bottom: 10px;
+  background-color: $teal2;
+  text-shadow: #ffffff 1px 1px 0.4px;
+  color: black;
+  width: 60vw;
+}
+
+.Title_Block3 {
+  font-size: 50px;
+  border-color: #ffffff;
+  border-style: groove;
+  border-radius: 5%;
+  box-shadow: 4px 4px 6px  rgb(159, 159, 159);
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  background-color: $teal2;
+  text-shadow: #ffffff 1px 1px 0.4px;
+  color: black;
+  width: 60vw;
+
+}
+
+.Title_Block_Red {
+  font-size: 50px;
+  border-color: #ffffff;
+  border-style: groove;
+  border-radius: 5%;
+  box-shadow: 4px 4px 6px  rgb(159, 159, 159);
+  padding-top: 10px;
+  text-align: center;
+  align-self: center;
+  margin-top: 200px;
+  margin-bottom: 10px;
+  background-color: #ff103f;
+  color: white;
+  text-shadow: #000000 2px 2px 1px;
+
+  width: 60vw;
+
+}
+
+@media (max-width: 768px) {
+  .Title_Block,
+  .Title_Block2,
+  .Title_Block3,
+  .Title_Block_Red,
+  .Title_Block_Music  {
+    font-size: 30px;
+  }
+}

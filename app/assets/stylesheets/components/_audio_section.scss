@@ -1,0 +1,225 @@
+@import "config/colors";
+
+/*     .audio_container {
+      display:contents;
+      padding: 10px;
+      margin: 10px;
+      margin-top: 200px;
+      height: 100vh;
+      width: 80vw;
+    /*  background-color: $teal2; */
+
+.music_title {
+  font-size: 70px;
+  opacity: 0.75;
+  padding-top: 40px;
+  text-align: center;
+  margin-top: 400px;
+  margin-bottom: 200px;
+  background-color: $teal;
+  color: $teal4;
+  width: 60vw;
+}
+
+.music_quote1 {
+  font-size: 40px;
+  margin: 20px 0;
+  padding-top: 40px;
+  text-align: center;
+  margin-top: 20px;
+
+  @media (max-width: 768px){
+    font-size: 30px;
+
+  }
+}
+
+.music_text {
+  /* background-color: $teal2; */
+  font-size: 20px;
+  margin: 20px 0;
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 200px;
+  width: 80vw;
+
+  @media (max-width: 768px){
+    font-size: 20px;
+    margin-top: 100px;
+    
+  }
+
+}
+
+/*   .AI_music {
+    font-size: 70px;
+    opacity: 0.75;
+    padding-top: 40px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: $teal;
+    color: $teal4;
+    width: 60vw;
+
+
+  } */
+
+.audio_grid {
+  display: grid;
+  grid-template:
+  "grid-item1 grid-item2"
+  "grid-item3 grid-item4"
+  "grid-item5 grid-item6";
+
+
+  grid-gap: 10px;
+  row-gap: 200px;
+  grid: flex-wrap;
+  padding: 10px;
+  margin: 0px;
+  margin-top: 100px;
+  max-width: 100%;
+ @media (max-width: 768px){
+    grid-template:
+    "grid-item1"
+    "grid-item2"
+    "grid-item3"
+    "grid-item4"
+    "grid-item5"
+    "grid-item6";
+    row-gap: 50px;
+    margin-top: 20px;
+    max-width: 80%;
+    .grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5, .grid-item6 {
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+
+
+    }
+  }
+}
+
+
+
+.grid-item1 {
+  background-color: black;
+  /* width: 1000px; */
+  max-width: 100%;
+  @media (max-width: 768px){
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+
+  /* margin: auto; */
+  /* background-color: $teal2; */
+  /* border-radius: 25%; */
+
+}
+
+/* .grid-item1  {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background-color: aqua;
+  /* margin: auto; */
+
+
+/*   } */
+
+.grid-item2 p {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  text-align: start;
+  /* grid-column: 2; */
+
+  height: fit-content;
+  max-width: 90%;
+
+  /* background-color: $teal2; */
+  /* border-radius: 25%; */
+}
+
+
+.grid-item3  {
+  color: white;
+  /* background-color: $teal2; */
+  font-size: 20px;
+  margin-right: 0px;
+  text-align: start;
+  margin-top: 100px;
+  height: fit-content;
+  margin-left: 0px;
+
+  /* border-radius: 25%; */
+}
+
+.grid-item5 p {
+  color: white;
+  font-size: 20px;
+  margin-right: 0px;
+  text-align: start;
+
+  height: fit-content;
+  margin-left: 0px;
+  /* background-color: $teal2; */
+  /* border-radius: 25%; */
+}
+
+.Soundcloud_Container {
+  display:flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  height: auto;
+  /* margin: auto; */
+  background-color: $teal2;
+  align-content: center;
+
+
+}
+.Soundcloud_Profile {
+  width: 100%;
+  height: auto;
+  /* object-fit: cover; */
+  /* scale: 0.6; */
+  margin-top: 200px;
+  margin-left: 0px;
+  background-color: aqua;
+  padding: 10px;
+  object-fit: cover;
+  align-content: center;
+
+}
+
+.Soundcloud_Pic {
+
+
+
+  margin-top: 20px;
+  margin-left: 0px;
+  background-color: aqua;
+  padding: 10px;
+  .img {
+    width: 60%;
+    height: auto;
+    margin-right: 100px;
+
+  }
+}
+
+.Check_Soundcloud {
+  font-size: 30px;
+
+  padding-top: 40px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  background-color: $teal2;
+  color: black;
+  width: 90vw;
+}

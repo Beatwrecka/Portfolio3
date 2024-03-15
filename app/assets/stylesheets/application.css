@@ -17,5 +17,9 @@
 @import "bootstrap";
 @import "font-awesome";
 
+@import "config/colors";
+@import "config/fonts";
+
 
 @import "pages/index";
+@import "pages/allprojects";

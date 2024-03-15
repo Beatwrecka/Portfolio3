@@ -2,55 +2,62 @@
 @import "config/colors";
 @import "config/fonts";
 
-.allprojbody {
-  background-color: rgb(36, 36, 36);
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+.textbubble {
+  /* background-color: $teal; */
+  color: white;
+  padding: 10px;
+
+  /* margin: 20px; */
+  font-size: x-large;
+  text-align: start;
+
+  height: fit-content;
+  /* box-shadow: 0 5px 10px 0 rgb(255, 89, 89); */
+
 }
 
 .allprojectsh1 {
   /* background-color: aqua; */
   height: fit-content;
-  color: $teal;
+  color: white;
   font-size: 40px;
   font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+}
 
+.allprojectsh2 {
+  /* background-color: aqua; */
+  height: fit-content;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
   text-align: center;
+}
+ .allprojcontainer {
+ /*  margin-top: 10px; */
+  align-content: center;
+  max-width: 100%;
+ }
 
+
+
+.allprojcard {
+
+  max-width: 98%;
 }
 
-.cardscontainer {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 80vw;
-  height: 80vh;
-  /* background-color: white; */
-  margin-top: 15vh;
-  margin-bottom: 15vh;
-  margin-left: auto;
-  margin-right: auto;
+.allprojdescription {
+  font-size: 20px;
+  margin: auto;
+ /*  margin-top: 20px; */
+  max-width: 100%;
 }
 
-.projectcard {
-
-  width: 15vw;
-  height: 40vh;
-  border-radius: 30px;
-  background: #212121;
- box-shadow: 15px 15px 30px rgb(25, 25, 25),
-             -15px -15px 30px rgb(60, 60, 60);
-
-             &:hover {
-              background: #171717; // Example hover effect: change background color
-              box-shadow: 10px 10px 20px rgb(20, 20, 20),
-                          -10px -10px 20px rgb(65, 65, 65);
-              scale: 1.5;
-  }
+.h1 {
+  font-size: small;
 }
