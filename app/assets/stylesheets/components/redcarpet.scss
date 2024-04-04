@@ -9,7 +9,11 @@
   justify-content: space-between;
   margin-top: 200px;
 
-
+  @media (max-width: 768px){
+    margin-top: 10px;
+    max-width: 100%;
+    columns: 1;
+  }
 
 }
 
@@ -36,8 +40,43 @@
 
   @media (max-width: 768px){
     width: calc(100% - 10px); /* Set the width for one item per row */
+    margin-top: 10px;
+    height: 400px;
   }
 }
+
+.redbubblevideo {
+  max-width: calc(100% - 10px); /* Set the width for three items per row */
+  height: 400px;
+  margin-bottom: 20px; /* Add some space between rows */
+  box-sizing: border-box; /* Add this to make sure the width includes padding and border */
+  padding: 6px;
+  background-color: #ff103f;
+  border-radius: 2%;
+  /* object-fit: contain; */
+  margin-top: 0px;
+  margin-left: 51px;
+  align-content: center;
+  align-self: center;
+
+  @media (max-width: 768px){
+    width: calc(100% - 10px); /* Set the width for one item per row */
+    height: 300px;
+    margin: auto;
+  }
+}
+
+.redbubblevideo > video {
+  width: 100%;
+  /* height: 70%; */
+  aspect-ratio: 1 / 1;
+  object-fit:contain;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+
 .redtext {
   color: white;
   font-size: 20px;
@@ -46,7 +85,8 @@
   width: 90%;
   height: fit-content;
   margin: auto;
-  margin-top: 0px;
+  margin-top: 5px;
+  /* background-color: black; */
 
 }
 
@@ -60,31 +100,44 @@
 
 }
 
-.Banner_Container {
-  width: calc(100% - 10px);
-  justify-content: center;
-  object-fit: contain;
-  background-color: white;
-  padding: 2px;
-  display: flex;
-  align-content: flex-start;
+/*     .Banner_Container {
+      width: calc(100% - 10px);
+      justify-content: center;
+      object-fit: contain;
+      background-color: white;
+      padding: 2px;
+      margin-bottom: 500px;
+      display: flex;
+      align-content: flex-start;
+
+      @media (max-width: 768px){
+        width: calc(100% - 10px);
+        height: auto;
+        margin-bottom: 0px;
+      }
 
 
-}
+    } */
 .redcarpetbanner  {
   width: calc(100% - 10px);
-  height: 600px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  height: 460px;
+  margin-top: 50px;
+  margin-bottom: 200px;
   background-color: #ff103f;
   align-self: flex-start;
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  border-radius: 1%;
+  flex-wrap: wrap;
+  box-shadow: 4px 4px 8px  rgba(255, 255, 255, 0.427);
 
   @media (max-width: 768px){
-    /* max-width: 40vw; */
-    height: auto;
-    /* scale: 0.8; */
-    justify-self: auto;
+    width: calc(100% - 10px);
+    height: 250px;
+
+
   }
 
 
@@ -93,13 +146,28 @@
 }
 
 .redcarpetbanner > img {
-  width: 100%;
+  width: 90%;
   /* height: 70%; */
   aspect-ratio: 1 / 1;
   object-fit:contain;
   margin-top: 0px;
-  margin-bottom: 0px;
+  position: absolute;
+
+  /* box-shadow: 4px 4px 4px  rgb(0, 0, 0); */
+
+
+
+  padding: 50px;
+
+  @media (max-width: 768px){
+    max-width: 86%;
+    height: 250px;
+    margin-top: 0px;
+    padding: 30px;
+     position: absolute;
+  }
 }
+
 
 
 .h3 {
