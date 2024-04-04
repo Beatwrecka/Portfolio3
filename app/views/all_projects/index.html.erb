@@ -69,11 +69,11 @@
 
     <section>
             <div class="Title_Block_Red">Red Carpet Rentals</div>
-        <div class="Banner_Container">
+       <%#  <div class="Banner_Container"> %>
             <div class="redcarpetbanner">
               <%= image_tag "banner_image.png", alt: "Description of the image" %>
             </div>
-        </div>
+       <%#  </div> %>
       <div class="redcontainer">
         <div class="redbubble2">
           <p class="redtext"> Our penultimate project at Le Wagon was to build a two-sided marketplace, and we chose to create a platform for renting costumes...with a twist! <br>
@@ -113,6 +113,9 @@
               <%= image_tag "redcarpet/ElonRambo.png", alt: "Description of the image" %>
             </div>
 
+            <div class="redbubblevideo">
+              <%= video_tag "Banner-snow_.mp4", type: "video/mp4", autoplay: true, loop: true,  alt: "Designing the logo with Procreate and an Ipad Pro with Apple Pencil" %>
+            </div>
 
     </section>
 
@@ -174,12 +177,13 @@
 
       <div class="audio_grid">
 
-         <div class="grid-item2"><p>I came up with the idea to remix "let it snow" into a Hip Hop track, and once I'd sampled the original and dropped a beat over it, I thought "This would sound awesome with Biggie Smalls on it." <br>
+        <div class="grid-item2"><p>I came up with the idea to remix "let it snow" into a Hip Hop track, and once I'd sampled the original and dropped a beat over it, I thought "This would sound awesome with Biggie Smalls on it." <br>
           So i wrote a rap that fitted with the Christmas vibe, recorded it, and then set about training A.I. models on Biggie and Eminem's voices. <br>
-          Once I had the models trained, I switched my voice for theirs, adding backing vocals and this is the result! <br>
+         Once I had the models trained, I switched my voice for theirs, adding backing vocals and this is the result! <br>
+
         </div>
-        <div class="grid-item1"><iframe <%# width="560" height="315" %> src="https://www.youtube.com/embed/p01KEcb-6j8?si=xvCTRon48tvAdN8P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <%# </div> %>
+        <div class="grid-item1"><iframe width="560" height="315" src="https://www.youtube.com/embed/p01KEcb-6j8?si=xvCTRon48tvAdN8P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
 
         <div class="grid-item3"><p>This is a remix competition that I entered last year.
           <br> A Drum n Bass banger that shows off my darker side
